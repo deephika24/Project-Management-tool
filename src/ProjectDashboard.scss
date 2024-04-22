@@ -1,0 +1,83 @@
+// ProjectDashboard.scss
+
+.project-dashboard-container {
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    background-image: url('C:\\Users\\HP\\Downloads\\projectmanagement\\projmantool\\src\\image1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+    /* Ensure padding is included in width and height */
+    background-color: lightpink;
+  }
+  
+  
+  
+  
+  
+  .task-form-container {
+    margin-bottom: 20px; /* Add bottom margin to separate from other elements */
+  }
+  
+  .button-container {
+    margin-top: 20px; /* Add top margin to separate from other elements */
+  }
+  
+  .table-container {
+    margin-top: 20px; /* Add top margin to separate from other elements */
+  }
+  
+  .toggle-timeline-button {
+    margin-top: 20px; /* Add top margin to separate from other elements */
+  }
+  .project-dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .menu-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu-button {
+    background-color: #ffcccc; /* Light pink color */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .accent-box {
+    background-color: #ffe6e6; /* Lighter pink color */
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .add-edit-task-container {
+    background-color: lightpink;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .tasks-list-container {
+    background-color: lightpink;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .schedule-tasks-container,
+.allocate-tasks-container,
+.timeline-container {
+  background-color: lightpink;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.schedule-table-container,
+.allocation-table-container {
+  margin-top: 20px;
+}
+
+  

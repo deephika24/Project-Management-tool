@@ -1,0 +1,123 @@
+// ProjectCreationForm.scss
+
+.project-form {
+    max-width: 500px;
+    margin: 0 auto;
+
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  
+    h3 {
+      margin-bottom: 20px;
+      font-size: 1.5rem;
+    }
+  
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+  
+    input[type='text'],
+    input[type='date'] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+  
+    button {
+      padding: 10px 20px;
+      margin-top: 10px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  
+    ul {
+      margin-top: 15px;
+      padding-left: 0;
+      list-style-type: none;
+  
+      li {
+        margin-bottom: 5px;
+      }
+    }
+  }
+  .project-creation-form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightpink;
+  
+    h3 {
+      color: darkpink; /* Adjust text color */
+    }
+  
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    input[type="text"],
+    input[type="date"] {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+  
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+  
+    button {
+        background-color: darkpink; /* Dark pink background color */
+        color: black; /* Black text color */
+        border: none;
+        padding: 10px 20px;
+        margin-top: 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s; /* Transition for background color and text color */
+      }
+    
+      button:hover {
+        background-color: #ff6b9b; /* Lighter shade of dark pink on hover */
+        color: white; /* White text color on hover */
+      }
+    
+      button[type="submit"] {
+        margin-right: 10px;
+      }
+    
+      button[type="button"] {
+        background-color: darkpink; /* Dark pink background color */
+        color: black; /* Black text color */
+        border: none;
+        padding: 10px 20px;
+        margin-top: 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s; /* Transition for background color and text color */
+      }
+    
+      button[type="button"]:hover {
+        background-color: #ff6b9b; /* Lighter shade of dark pink on hover */
+        color: white; /* White text color on hover */
+      }
+    }

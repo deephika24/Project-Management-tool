@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('C:\\Users\\HP\\Downloads\\projectmanagement\\projmantool\\src\\image1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .project-list-container {
+    text-align: center;
+  }
+  
+  .project-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .project-button {
+    background-color: lightpink;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .create-project-container {
+    margin-top: 20px;
+  }
+  
+  .create-project-link {
+    background-color: lightpink;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333; /* Change color as needed */
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .create-project-link:hover {
+    background-color: pink; /* Change color on hover if needed */
+    text-decoration: underline; /* Underline on hover if needed */
+  }
+  
+  
